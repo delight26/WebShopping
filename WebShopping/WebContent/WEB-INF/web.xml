@@ -14,7 +14,7 @@
 	</welcome-file-list>
 	<servlet>
 		<servlet-name>ControllerAction</servlet-name>
-		<servlet-class>com.bookmanage.controller.ControllerAction</servlet-class>
+		<servlet-class>com.webshopping.controller.ControllerAction</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ControllerAction</servlet-name>

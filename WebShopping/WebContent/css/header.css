@@ -1,0 +1,5 @@
+@CHARSET "UTF-8";
+#header ul{
+	float:right;
+	list-style: none;
+}
