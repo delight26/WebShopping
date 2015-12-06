@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource name="jdbc/webshoppingDBpool"
+auth="Container"
+type="javax.sql.DataSource"
+driverClassName="oracle.jdbc.driver.OracleDriver"
+url="jdbc:oracle:thin:@localhost:1521:xe"
+username="webshopping"
+password="12345678"
+factory="org.apache.commons.dbcp2.BasicDataSourceFactory"
+maxActive="10"
+maxIdle="5"
+/>
+</Context>
