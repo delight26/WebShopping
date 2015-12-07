@@ -9,20 +9,17 @@
 <body>
 	<section id="h_section">
 		<div>
-			<input type="image" src="./Images/black_top_pc.jpg" 	style="width: 100%" />
-		</div>
-		<div>
-			<%@ include file="../Main/MainHeader.jsp"%>
+			<%@ include file="/WEB-INF/Main/MainHeader.jsp"%>
 		</div>
 	</section>
 	<section id="n_section">
 		<div>
-			<%@ include file="../Main/MainNav.jsp"%>
+			<iframe width="100%" height="1500" name="mainfr" frameborder="0" scrolling="no"></iframe>
 		</div>
 	</section>
 	<section id="f_section">
 		<div>
-			<%@ include file="../Main/MainFooter.jsp"%>
+			<%@ include file="/WEB-INF/Main/MainFooter.jsp"%>
 		</div>
 	</section>
 </body>

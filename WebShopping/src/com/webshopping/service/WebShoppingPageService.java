@@ -16,11 +16,11 @@ public class WebShoppingPageService implements CommandAction {
 			throws IOException, ServletException {
 		switch(view.getReqURI()){
 		case "index.do":
-			view.setView("./Main/MainTempIndex.jsp");
+			view.setView("/WEB-INF/Main/MainTempIndex.jsp");
 			view.setRedirect(false);
 			break;
 		case "loginpage.do":
-			view.setView("./Member/LoginForm.jsp");
+			view.setView("/WEB-INF/Member/LoginForm.jsp");
 			view.setRedirect(false);
 			break;
 		}

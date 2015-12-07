@@ -15,9 +15,5 @@
 			<li><a href="#" target="mainfr">BAG가방</a></li>
 		</ul>
 	</div>
-	<div>
-			<iframe width="100%" height="1500" name="mainfr"
-				frameborder="0" scrolling="no"></iframe>
-		</div>
 </body>
 </html>

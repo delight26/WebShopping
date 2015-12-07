@@ -1,5 +1,20 @@
 @CHARSET "UTF-8";
-#header ul{
-	float:right;
+
+#header {
+	background-color: red;
+	width: 100%;
+}
+
+#headernav ul li {
 	list-style: none;
+	color: red;
+	background-color: red;
+	float: right;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#headernav ul li a {
+	color: white;
 }
